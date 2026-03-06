@@ -2,10 +2,9 @@ import { useTheme } from "@/src/theme/useTheme";
 import { StyleSheet, Text, View } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 
-export default function Index() {
+export default function ScanScreen() {
   const theme = useTheme();
   const insets = useSafeAreaInsets();
-
   return (
     <View
       style={[
@@ -17,7 +16,7 @@ export default function Index() {
       ]}
     >
       <Text style={[styles.text, { color: theme.text.primary }]}>
-        Home screen
+        Scan Screen
       </Text>
     </View>
   );
@@ -26,8 +25,10 @@ export default function Index() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: "center",
     justifyContent: "center",
+    alignItems: "center",
   },
-  text: {},
+  text: {
+    //color: "#fff",
+  },
 });
