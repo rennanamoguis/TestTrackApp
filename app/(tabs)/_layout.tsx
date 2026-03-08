@@ -22,18 +22,18 @@ export default function TabLayout() {
         tabBarStyle: {
           backgroundColor: theme.navigation.tabBarBackground,
 
-          borderTopLeftRadius: 18,
-          borderTopRightRadius: 18,
-          borderTopWidth: 0,
-          overflow: "hidden",
-          height: Platform.OS === "ios" ? 86 : 64,
+          //borderTopLeftRadius: 18,
+          //borderTopRightRadius: 18,
+          //borderTopWidth: 0,
+          //overflow: "hidden",
+          //height: Platform.OS === "ios" ? 86 : 64,
           //paddingBottom: Platform.OS === "ios" ? 22 : 10,
-          paddingBottom: Platform.select({
-            ios: 22,
-            android: 10,
-            default: 0,
-          }),
-          paddingTop: 8,
+          // paddingBottom: Platform.select({
+          //   ios: 22,
+          //   android: 10,
+          //   default: 0,
+          // }),
+          // paddingTop: 8,
 
           // shadowColor: theme.text.primary,
           // shadowOpacity: 0.08,
